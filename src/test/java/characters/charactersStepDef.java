@@ -43,6 +43,7 @@ public class charactersStepDef {
                 assertTrue(character.toString().contains(field));
             }
         });
+
         
     }
 
