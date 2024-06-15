@@ -1,9 +1,16 @@
+# Exclude all target directories
 target/
+
+# Exclude reports directory
+reports/
+
+# Allow maven wrapper jar file
 !.mvn/wrapper/maven-wrapper.jar
+
+# Allow target directories under specific src paths
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### IntelliJ IDEA ###
 .idea
 .idea/modules.xml
 .idea/jarRepositories.xml
@@ -13,7 +20,7 @@ target/
 *.iml
 *.ipr
 
-### Eclipse ###
+# Eclipse
 .apt_generated
 .classpath
 .factorypath
@@ -22,7 +29,7 @@ target/
 .springBeans
 .sts4-cache
 
-### NetBeans ###
+# NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
@@ -32,8 +39,7 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-### VS Code ###
+# VS Code
 .vscode/
 
-### Mac OS ###
 .DS_Store

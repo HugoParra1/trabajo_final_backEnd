@@ -43,6 +43,7 @@ public class charactersStepDef {
                 assertTrue(character.toString().contains(field));
             }
         });
+
         
     }
 
@@ -51,4 +52,5 @@ public class charactersStepDef {
     public void theUserReceivesAListOfRecommendedCharacters() {
         response = given().header("Content-Type", "application/json").when().get();
     }
+
 }
