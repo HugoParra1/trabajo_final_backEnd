@@ -3,7 +3,147 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2024-06-14T08:29:47.466Z",
+        "start_timestamp": "2024-06-15T11:17:36.365Z",
+        "line": 10,
+        "name": "Search a character by his id",
+        "description": "",
+        "id": "character;search-a-character-by-his-id;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 299000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user wants to search a characters by id in the Rick and Morty API",
+            "match": {
+              "location": "character.characterStepDef.theUserWantsToSearchACharactersByIdInTheRickAndMortyAPI()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 926000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user sends a request to search characters by id \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 52
+                }
+              ],
+              "location": "character.characterStepDef.theUserSendsARequestToSearchCharactersById(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 372000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user should get the character with id \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 42
+                }
+              ],
+              "location": "character.characterStepDef.theUserShouldGetTheCharacterWithId(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-15T11:17:38.013Z",
+        "line": 20,
+        "name": "Check the endpoint content",
+        "description": "",
+        "id": "character;check-the-endpoint-content;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The user wants to search a characters by id in the Rick and Morty API",
+            "match": {
+              "location": "character.characterStepDef.theUserWantsToSearchACharactersByIdInTheRickAndMortyAPI()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 278000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The user sends a request to search characters by id \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 52
+                }
+              ],
+              "location": "character.characterStepDef.theUserSendsARequestToSearchCharactersById(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The user should get the character with id \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 42
+                }
+              ],
+              "location": "character.characterStepDef.theUserShouldGetTheCharacterWithId(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "The list contain every information about the character",
+            "match": {
+              "location": "character.characterStepDef.theListContainEveryInformationAboutTheCharacter()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Character",
+    "description": "",
+    "id": "character",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/character/character.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-06-15T11:17:38.311Z",
         "line": 10,
         "name": "Search characters by name",
         "description": "",
@@ -13,7 +153,6 @@
         "steps": [
           {
             "result": {
-              "duration": 272000000,
               "status": "passed"
             },
             "line": 4,
@@ -25,7 +164,7 @@
           },
           {
             "result": {
-              "duration": 909000000,
+              "duration": 294000000,
               "status": "passed"
             },
             "line": 5,
@@ -43,7 +182,7 @@
           },
           {
             "result": {
-              "duration": 417000000,
+              "duration": 21000000,
               "status": "passed"
             },
             "line": 6,
@@ -62,7 +201,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-06-14T08:29:49.115Z",
+        "start_timestamp": "2024-06-15T11:17:38.632Z",
         "line": 11,
         "name": "Search characters by name",
         "description": "",
@@ -83,7 +222,7 @@
           },
           {
             "result": {
-              "duration": 371000000,
+              "duration": 344000000,
               "status": "passed"
             },
             "line": 5,
@@ -101,7 +240,7 @@
           },
           {
             "result": {
-              "duration": 16000000,
+              "duration": 14000000,
               "status": "passed"
             },
             "line": 6,
@@ -120,7 +259,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-06-14T08:29:49.503Z",
+        "start_timestamp": "2024-06-15T11:17:38.993Z",
         "line": 12,
         "name": "Search characters by name",
         "description": "",
@@ -141,7 +280,7 @@
           },
           {
             "result": {
-              "duration": 269000000,
+              "duration": 318000000,
               "status": "passed"
             },
             "line": 5,
@@ -159,7 +298,7 @@
           },
           {
             "result": {
-              "duration": 14000000,
+              "duration": 11000000,
               "status": "passed"
             },
             "line": 6,
@@ -178,7 +317,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-06-14T08:29:49.790Z",
+        "start_timestamp": "2024-06-15T11:17:39.326Z",
         "line": 23,
         "name": "Check the endpoint content",
         "description": "",
@@ -199,7 +338,7 @@
           },
           {
             "result": {
-              "duration": 254000000,
+              "duration": 253000000,
               "status": "passed"
             },
             "line": 17,
@@ -217,7 +356,7 @@
           },
           {
             "result": {
-              "duration": 12000000,
+              "duration": 11000000,
               "status": "passed"
             },
             "line": 18,
@@ -235,7 +374,7 @@
           },
           {
             "result": {
-              "duration": 13000000,
+              "duration": 11000000,
               "status": "passed"
             },
             "line": 19,
@@ -248,7 +387,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-06-14T08:29:50.072Z",
+        "start_timestamp": "2024-06-15T11:17:39.604Z",
         "line": 24,
         "name": "Check the endpoint content",
         "description": "",
@@ -269,7 +408,7 @@
           },
           {
             "result": {
-              "duration": 226000000,
+              "duration": 366000000,
               "status": "passed"
             },
             "line": 17,
@@ -287,7 +426,7 @@
           },
           {
             "result": {
-              "duration": 11000000,
+              "duration": 9000000,
               "status": "passed"
             },
             "line": 18,
@@ -305,7 +444,7 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 7000000,
               "status": "passed"
             },
             "line": 19,
@@ -318,7 +457,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-06-14T08:29:50.321Z",
+        "start_timestamp": "2024-06-15T11:17:39.990Z",
         "line": 25,
         "name": "Check the endpoint content",
         "description": "",
@@ -339,7 +478,7 @@
           },
           {
             "result": {
-              "duration": 248000000,
+              "duration": 225000000,
               "status": "passed"
             },
             "line": 17,
@@ -388,7 +527,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-06-14T08:29:50.588Z",
+        "start_timestamp": "2024-06-15T11:17:40.234Z",
         "line": 28,
         "name": "Search by an incomplete name",
         "description": "",
@@ -398,7 +537,6 @@
         "steps": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 29,
@@ -410,7 +548,7 @@
           },
           {
             "result": {
-              "duration": 242000000,
+              "duration": 306000000,
               "status": "passed"
             },
             "line": 30,
@@ -428,7 +566,7 @@
           },
           {
             "result": {
-              "duration": 10000000,
+              "duration": 9000000,
               "status": "passed"
             },
             "line": 31,
@@ -447,7 +585,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-06-14T08:29:50.842Z",
+        "start_timestamp": "2024-06-15T11:17:40.552Z",
         "line": 34,
         "name": "Search by an invalid name",
         "description": "",
@@ -468,7 +606,7 @@
           },
           {
             "result": {
-              "duration": 288000000,
+              "duration": 263000000,
               "status": "passed"
             },
             "line": 36,
@@ -486,7 +624,7 @@
           },
           {
             "result": {
-              "duration": 222000000,
+              "duration": 244000000,
               "status": "passed"
             },
             "line": 37,

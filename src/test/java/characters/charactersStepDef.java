@@ -52,4 +52,5 @@ public class charactersStepDef {
     public void theUserReceivesAListOfRecommendedCharacters() {
         response = given().header("Content-Type", "application/json").when().get();
     }
+
 }
