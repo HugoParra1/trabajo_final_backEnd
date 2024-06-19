@@ -1,0 +1,651 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-06-17T15:35:50.891Z",
+        "line": 10,
+        "name": "Search a character by his id",
+        "description": "",
+        "id": "character;search-a-character-by-his-id;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 514000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user wants to search a characters by id in the Rick and Morty API",
+            "match": {
+              "location": "character.characterStepDef.theUserWantsToSearchACharactersByIdInTheRickAndMortyAPI()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1546000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user sends a request to search characters by id \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 52
+                }
+              ],
+              "location": "character.characterStepDef.theUserSendsARequestToSearchCharactersById(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 459000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user should get the character with id \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 42
+                }
+              ],
+              "location": "character.characterStepDef.theUserShouldGetTheCharacterWithId(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-17T15:35:53.499Z",
+        "line": 20,
+        "name": "Check the endpoint content",
+        "description": "",
+        "id": "character;check-the-endpoint-content;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The user wants to search a characters by id in the Rick and Morty API",
+            "match": {
+              "location": "character.characterStepDef.theUserWantsToSearchACharactersByIdInTheRickAndMortyAPI()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 337000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The user sends a request to search characters by id \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 52
+                }
+              ],
+              "location": "character.characterStepDef.theUserSendsARequestToSearchCharactersById(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The user should get the character with id \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 42
+                }
+              ],
+              "location": "character.characterStepDef.theUserShouldGetTheCharacterWithId(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "The list contain every information about the character",
+            "match": {
+              "location": "character.characterStepDef.theListContainEveryInformationAboutTheCharacter()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Character",
+    "description": "",
+    "id": "character",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/character/character.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-06-17T15:35:53.861Z",
+        "line": 10,
+        "name": "Search characters by name",
+        "description": "",
+        "id": "characters;search-characters-by-name;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user wants to search a characters by name in the Rick and Morty API",
+            "match": {
+              "location": "characters.charactersStepDef.theUserWantsToSearchACharactersByNameInTheRickAndMortyAPI()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 331000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user sends a request to search characters by name \"Rick\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rick\"",
+                  "offset": 54
+                }
+              ],
+              "location": "characters.charactersStepDef.theUserSendsARequestToSearchCharactersByName(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user receives a list of characters that contain \"Rick\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rick\"",
+                  "offset": 52
+                }
+              ],
+              "location": "characters.charactersStepDef.theUserReceivesAListOfCharactersThatContain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-17T15:35:54.221Z",
+        "line": 11,
+        "name": "Search characters by name",
+        "description": "",
+        "id": "characters;search-characters-by-name;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user wants to search a characters by name in the Rick and Morty API",
+            "match": {
+              "location": "characters.charactersStepDef.theUserWantsToSearchACharactersByNameInTheRickAndMortyAPI()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 435000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user sends a request to search characters by name \"Morty\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Morty\"",
+                  "offset": 54
+                }
+              ],
+              "location": "characters.charactersStepDef.theUserSendsARequestToSearchCharactersByName(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user receives a list of characters that contain \"Morty\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Morty\"",
+                  "offset": 52
+                }
+              ],
+              "location": "characters.charactersStepDef.theUserReceivesAListOfCharactersThatContain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-17T15:35:54.680Z",
+        "line": 12,
+        "name": "Search characters by name",
+        "description": "",
+        "id": "characters;search-characters-by-name;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user wants to search a characters by name in the Rick and Morty API",
+            "match": {
+              "location": "characters.charactersStepDef.theUserWantsToSearchACharactersByNameInTheRickAndMortyAPI()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 454000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user sends a request to search characters by name \"Summer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Summer\"",
+                  "offset": 54
+                }
+              ],
+              "location": "characters.charactersStepDef.theUserSendsARequestToSearchCharactersByName(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user receives a list of characters that contain \"Summer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Summer\"",
+                  "offset": 52
+                }
+              ],
+              "location": "characters.charactersStepDef.theUserReceivesAListOfCharactersThatContain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-17T15:35:55.150Z",
+        "line": 23,
+        "name": "Check the endpoint content",
+        "description": "",
+        "id": "characters;check-the-endpoint-content;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "The user wants to search a characters by name in the Rick and Morty API",
+            "match": {
+              "location": "characters.charactersStepDef.theUserWantsToSearchACharactersByNameInTheRickAndMortyAPI()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 244000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "The user sends a request to search characters by name \"Rick\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rick\"",
+                  "offset": 54
+                }
+              ],
+              "location": "characters.charactersStepDef.theUserSendsARequestToSearchCharactersByName(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "The user receives a list of characters that contain \"Rick\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rick\"",
+                  "offset": 52
+                }
+              ],
+              "location": "characters.charactersStepDef.theUserReceivesAListOfCharactersThatContain(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "The list contain every information about the Characters",
+            "match": {
+              "location": "characters.charactersStepDef.theListContainEveryInformationAboutTheCharacters()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-17T15:35:55.422Z",
+        "line": 24,
+        "name": "Check the endpoint content",
+        "description": "",
+        "id": "characters;check-the-endpoint-content;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "The user wants to search a characters by name in the Rick and Morty API",
+            "match": {
+              "location": "characters.charactersStepDef.theUserWantsToSearchACharactersByNameInTheRickAndMortyAPI()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 245000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "The user sends a request to search characters by name \"Morty\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Morty\"",
+                  "offset": 54
+                }
+              ],
+              "location": "characters.charactersStepDef.theUserSendsARequestToSearchCharactersByName(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "The user receives a list of characters that contain \"Morty\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Morty\"",
+                  "offset": 52
+                }
+              ],
+              "location": "characters.charactersStepDef.theUserReceivesAListOfCharactersThatContain(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "The list contain every information about the Characters",
+            "match": {
+              "location": "characters.charactersStepDef.theListContainEveryInformationAboutTheCharacters()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-17T15:35:55.692Z",
+        "line": 25,
+        "name": "Check the endpoint content",
+        "description": "",
+        "id": "characters;check-the-endpoint-content;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "The user wants to search a characters by name in the Rick and Morty API",
+            "match": {
+              "location": "characters.charactersStepDef.theUserWantsToSearchACharactersByNameInTheRickAndMortyAPI()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 256000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "The user sends a request to search characters by name \"Summer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Summer\"",
+                  "offset": 54
+                }
+              ],
+              "location": "characters.charactersStepDef.theUserSendsARequestToSearchCharactersByName(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "The user receives a list of characters that contain \"Summer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Summer\"",
+                  "offset": 52
+                }
+              ],
+              "location": "characters.charactersStepDef.theUserReceivesAListOfCharactersThatContain(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "The list contain every information about the Characters",
+            "match": {
+              "location": "characters.charactersStepDef.theListContainEveryInformationAboutTheCharacters()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-17T15:35:55.970Z",
+        "line": 28,
+        "name": "Search by an incomplete name",
+        "description": "",
+        "id": "characters;search-by-an-incomplete-name",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "The user wants to search a characters by name in the Rick and Morty API",
+            "match": {
+              "location": "characters.charactersStepDef.theUserWantsToSearchACharactersByNameInTheRickAndMortyAPI()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 288000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "The user sends a request to search characters by name \"Jer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jer\"",
+                  "offset": 54
+                }
+              ],
+              "location": "characters.charactersStepDef.theUserSendsARequestToSearchCharactersByName(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "The user receives a list of characters that contain \"Jerry\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jerry\"",
+                  "offset": 52
+                }
+              ],
+              "location": "characters.charactersStepDef.theUserReceivesAListOfCharactersThatContain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-17T15:35:56.272Z",
+        "line": 34,
+        "name": "Search by an invalid name",
+        "description": "",
+        "id": "characters;search-by-an-invalid-name",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "The user wants to search a characters by name in the Rick and Morty API",
+            "match": {
+              "location": "characters.charactersStepDef.theUserWantsToSearchACharactersByNameInTheRickAndMortyAPI()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 287000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "The user sends a request to search characters by name \"invalidName\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"invalidName\"",
+                  "offset": 54
+                }
+              ],
+              "location": "characters.charactersStepDef.theUserSendsARequestToSearchCharactersByName(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 251000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "The user receives a list of recommended characters",
+            "match": {
+              "location": "characters.charactersStepDef.theUserReceivesAListOfRecommendedCharacters()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Characters",
+    "description": "",
+    "id": "characters",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/characters/characters.feature",
+    "tags": []
+  }
+]
