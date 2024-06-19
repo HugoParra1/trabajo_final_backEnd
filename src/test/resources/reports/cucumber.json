@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2024-06-15T11:17:36.365Z",
+        "start_timestamp": "2024-06-17T15:35:50.891Z",
         "line": 10,
         "name": "Search a character by his id",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 299000000,
+              "duration": 514000000,
               "status": "passed"
             },
             "line": 4,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 926000000,
+              "duration": 1546000000,
               "status": "passed"
             },
             "line": 5,
@@ -43,7 +43,7 @@
           },
           {
             "result": {
-              "duration": 372000000,
+              "duration": 459000000,
               "status": "passed"
             },
             "line": 6,
@@ -62,7 +62,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-06-15T11:17:38.013Z",
+        "start_timestamp": "2024-06-17T15:35:53.499Z",
         "line": 20,
         "name": "Check the endpoint content",
         "description": "",
@@ -72,6 +72,7 @@
         "steps": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 13,
@@ -83,7 +84,7 @@
           },
           {
             "result": {
-              "duration": 278000000,
+              "duration": 337000000,
               "status": "passed"
             },
             "line": 14,
@@ -101,7 +102,7 @@
           },
           {
             "result": {
-              "duration": 12000000,
+              "duration": 13000000,
               "status": "passed"
             },
             "line": 15,
@@ -119,7 +120,7 @@
           },
           {
             "result": {
-              "duration": 4000000,
+              "duration": 6000000,
               "status": "passed"
             },
             "line": 16,
@@ -143,7 +144,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2024-06-15T11:17:38.311Z",
+        "start_timestamp": "2024-06-17T15:35:53.861Z",
         "line": 10,
         "name": "Search characters by name",
         "description": "",
@@ -153,6 +154,7 @@
         "steps": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 4,
@@ -164,7 +166,7 @@
           },
           {
             "result": {
-              "duration": 294000000,
+              "duration": 331000000,
               "status": "passed"
             },
             "line": 5,
@@ -182,7 +184,7 @@
           },
           {
             "result": {
-              "duration": 21000000,
+              "duration": 24000000,
               "status": "passed"
             },
             "line": 6,
@@ -201,7 +203,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-06-15T11:17:38.632Z",
+        "start_timestamp": "2024-06-17T15:35:54.221Z",
         "line": 11,
         "name": "Search characters by name",
         "description": "",
@@ -222,7 +224,7 @@
           },
           {
             "result": {
-              "duration": 344000000,
+              "duration": 435000000,
               "status": "passed"
             },
             "line": 5,
@@ -240,7 +242,7 @@
           },
           {
             "result": {
-              "duration": 14000000,
+              "duration": 18000000,
               "status": "passed"
             },
             "line": 6,
@@ -259,7 +261,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-06-15T11:17:38.993Z",
+        "start_timestamp": "2024-06-17T15:35:54.680Z",
         "line": 12,
         "name": "Search characters by name",
         "description": "",
@@ -280,7 +282,7 @@
           },
           {
             "result": {
-              "duration": 318000000,
+              "duration": 454000000,
               "status": "passed"
             },
             "line": 5,
@@ -317,7 +319,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-06-15T11:17:39.326Z",
+        "start_timestamp": "2024-06-17T15:35:55.150Z",
         "line": 23,
         "name": "Check the endpoint content",
         "description": "",
@@ -327,6 +329,7 @@
         "steps": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 16,
@@ -338,7 +341,7 @@
           },
           {
             "result": {
-              "duration": 253000000,
+              "duration": 244000000,
               "status": "passed"
             },
             "line": 17,
@@ -374,7 +377,7 @@
           },
           {
             "result": {
-              "duration": 11000000,
+              "duration": 13000000,
               "status": "passed"
             },
             "line": 19,
@@ -387,7 +390,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-06-15T11:17:39.604Z",
+        "start_timestamp": "2024-06-17T15:35:55.422Z",
         "line": 24,
         "name": "Check the endpoint content",
         "description": "",
@@ -397,6 +400,7 @@
         "steps": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 16,
@@ -408,7 +412,7 @@
           },
           {
             "result": {
-              "duration": 366000000,
+              "duration": 245000000,
               "status": "passed"
             },
             "line": 17,
@@ -426,7 +430,7 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 10000000,
               "status": "passed"
             },
             "line": 18,
@@ -444,7 +448,7 @@
           },
           {
             "result": {
-              "duration": 7000000,
+              "duration": 11000000,
               "status": "passed"
             },
             "line": 19,
@@ -457,7 +461,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-06-15T11:17:39.990Z",
+        "start_timestamp": "2024-06-17T15:35:55.692Z",
         "line": 25,
         "name": "Check the endpoint content",
         "description": "",
@@ -478,7 +482,7 @@
           },
           {
             "result": {
-              "duration": 225000000,
+              "duration": 256000000,
               "status": "passed"
             },
             "line": 17,
@@ -514,7 +518,7 @@
           },
           {
             "result": {
-              "duration": 7000000,
+              "duration": 8000000,
               "status": "passed"
             },
             "line": 19,
@@ -527,7 +531,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-06-15T11:17:40.234Z",
+        "start_timestamp": "2024-06-17T15:35:55.970Z",
         "line": 28,
         "name": "Search by an incomplete name",
         "description": "",
@@ -548,7 +552,7 @@
           },
           {
             "result": {
-              "duration": 306000000,
+              "duration": 288000000,
               "status": "passed"
             },
             "line": 30,
@@ -566,7 +570,7 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 11000000,
               "status": "passed"
             },
             "line": 31,
@@ -585,7 +589,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-06-15T11:17:40.552Z",
+        "start_timestamp": "2024-06-17T15:35:56.272Z",
         "line": 34,
         "name": "Search by an invalid name",
         "description": "",
@@ -606,7 +610,7 @@
           },
           {
             "result": {
-              "duration": 263000000,
+              "duration": 287000000,
               "status": "passed"
             },
             "line": 36,
@@ -624,7 +628,7 @@
           },
           {
             "result": {
-              "duration": 244000000,
+              "duration": 251000000,
               "status": "passed"
             },
             "line": 37,
